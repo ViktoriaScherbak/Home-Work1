@@ -1,0 +1,207 @@
+/*MAIN STYLES*/
+body{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+main{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dddddd+0,f8f8f8+34,f8f8f8+100 */
+    background: #dddddd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #dddddd 0%, #f8f8f8 34%, #f8f8f8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #dddddd 0%,#f8f8f8 34%,#f8f8f8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #dddddd 0%,#f8f8f8 34%,#f8f8f8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*HEADER*/
+header{
+    background: url("../img/fon_header_right.png") no-repeat;
+    -webkit-background-size:100%;
+    background-size:100%;
+    height: 130px;
+}
+.logo{
+    float: left;
+    margin: 0;
+    padding: 10px 25px;
+}
+.logo h1{
+    margin-bottom: 0;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.logo a{
+    color: #ffccb0;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+}
+.login{
+    padding: 5px 25px;
+    margin: 0;
+}
+.login form{
+    float: right;
+}
+.login input[type="text"],
+.login input[type="password"]{
+    width: 110px;
+    background-color: #ff9b33;
+    color: #fff;
+    margin-right: 5px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+.login input[type="submit"]{
+    width: 25px;
+    height: 19px;
+    background: url("../img/button_authorize.png") no-repeat center ;
+}
+.login .discr{
+    margin-top: 0;
+    clear: right;
+    float: right;
+    text-align: right;
+}
+.login .discr p{
+    margin:10px 15px 0 0;
+    color: #332f2f;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.login .discr p span{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.login .discr h3{
+    padding:5px;
+    background-color: #FFA64D;
+    color: #fff;
+    font-size: 12px;
+}
+.login .discr a{
+    background-color: #F5620A;
+    color: #dfcb94;
+    font-size: 12px;
+}
+/*NAVBAR*/
+.nav-bar{
+    clear: both;
+    height: 30px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,e0e0e0+100 */
+    background: #f7f7f7; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f7f7f7 0%, #e0e0e0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f7f7f7 0%,#e0e0e0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f7f7f7 0%,#e0e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-bar li{
+    display: inline-block;
+    float: left;
+    padding:5px 7px;
+}
+.nav-bar li a{
+    color: #5d5d5d;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-bar li:hover a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-bar li:hover{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#838383+0,494949+100 */
+    background: #838383; /* Old browsers */
+    background: -moz-linear-gradient(top,  #838383 0%, #494949 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #838383 0%,#494949 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #838383 0%,#494949 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#838383', endColorstr='#494949',GradientType=0 ); /* IE6-9 */
+
+}
+/*SIDEBAR*/
+.side-bar{
+    display: block;
+    float: left;
+    margin-top: 15px;
+    width: 250px;
+    text-align: center;
+}
+.side-bar img{
+    margin: 5px;
+}
+/*CONTENT*/
+.content{
+    display: inline-block;
+}
+.content .vip{
+    height: 88px;
+    width: 1080px;
+    margin-top: 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d9d9d9+0,ffffff+100 */
+    background: #d9d9d9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d9d9d9 0%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #d9d9d9 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #d9d9d9 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #ccc;
+
+}
+.content .vip h2{
+    margin-top: 0;
+    text-align: left;
+    padding:14px 0 10px 10px;
+    color: #1f1f1f;
+    font-size: 16px;
+}
+.content .desk{
+    height: 195px;
+    width: 1080px;
+    margin-top: 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d9d9d9+0,ffffff+100 */
+    background: #d9d9d9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d9d9d9 0%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #d9d9d9 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #d9d9d9 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.content .desk h3{
+    margin: 0;
+    padding: 15px 12px;
+    font-size: 17px;
+    color: #1f1f1f;
+    font-weight: 100;
+}
+.content .desk a{
+    text-align: center;
+    padding: 0 10px;
+    margin-right:250px;
+    color: #b24b00;
+}
+.content .desk a:hover{
+    text-decoration: none;
+}
+.content .desk ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.content .desk ul li a{
+    color: #000;
+}
+.content .desk ul li a:hover{
+    text-decoration: none;
+}
